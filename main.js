@@ -20,7 +20,6 @@ var app = http.createServer(function(request,response){
     else if(pathname === '/update_process') topic.update_process(request, response);
     else if(pathname === '/delete_process') topic.delete(request, response);
     else if(pathname === '/author') author.home(request, response);
-/*     else if(pathname === '/author_create') author.create(request, response); */
     else if(pathname === '/author_create_process') author.create_process(request, response);
     else if(pathname === '/author_update') author.update(request, response);
     else if(pathname === '/author_update_process') author.update_process(request, response);
